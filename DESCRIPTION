@@ -1,0 +1,17 @@
+Package: nre
+Type: Package
+Title: nre
+Version: 1.0.0
+Author: person("Samir", "Touzani", email = "stouzani@lbl.gov", role = c("aut", "cre"))
+Description: The non-routine event (NRE) detection and adjustment module provides tools to detect changes in energy use that are not attributable to installed efficiency measures, and not accounted for in the baseline model’s independent variables. The detection algorithm is based on a statistical change point algorithm.
+License: Refer to License.txt file
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports:
+    dplyr (>= 0.7.4),
+    tidyr (>= 0.8.0),
+    lubridate (>= 1.6.0),
+    changepoint (>= 2.2.2),
+    TSclust (>= 1.2.4),
+    zoo (>= 1.8-2)
