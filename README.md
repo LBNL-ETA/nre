@@ -34,7 +34,7 @@ devtools::install_github("LBNL-ETA/nre")
 ```
 
 ## Input Data Format
-To correctly the calculation within the **RMV2.0** package, it is required from the user to provide a specific format of input data, which are the pre and post period data (note that only pre period are required when screening project is performed). The input data should be loaded as csv files that have a specific tabular format. These files should have at least three columns: 
+To correctly perform calculations within the **nre** package, it is required from the user to provide a specific format of input data, which are the pre and post period data (note that only pre period are required when screening project is performed). The input data should be loaded as csv files that have a specific tabular format. These files should have at least three columns: 
 
 1. *time*: timestamps of the time series using "*month/day/last two digits of the year*" format (i.e., "%m/%d/%y %H:%M" format)
 2. *eload*: energy consumption values 
